@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Letter Finder</title>
+</head>
+
+<body>
+    <h1>Letter's Location Finder</h1>
+    <form action="">
+        Enter Word: <input type="text" name="word" id="word">
+        Enter Letter: <input type="text" name="letter" id="letter">
+        <br><br>
+        <button type="button" onclick="letterFinder(word, letter)">Submit</button>
+        <h2 id="loc"></h2>
+    </form>
+    <div class="letter"></div>
+
+    <script src="letterFinder.js"></script>
+</body>
+
+</html>
